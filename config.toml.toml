@@ -1,28 +1,29 @@
  baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "APA DAnalysis"
 theme = "hugo-hero-theme"
+logo= "apa logo.svg"
 
 [module.hugoVersion]
 extended = "yes"
 min = "0.92.0"
 
 [params]
-google_analytics_id = ""
+google_analytics_id = "/"
 
   [params.homepage_meta_tags]
-  meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-  meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-  meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-  meta_og_title = "Hugo Hero Theme"
+  meta_description = "APA DAnalysis is a website which shows Differential analysis results of two R packages and comparison of these packages"
+  meta_og_description = "APA DAnalysis is a website which shows Differential analysis results of two R packages and comparison of these packages"
+  meta_og_image = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  meta_og_title = "Alternative polyadenylation differential analysis"
   meta_og_type = "website"
-  meta_og_url = "https://hugo-hero.netlify.app"
+  meta_og_url = "https://mywebsite.app"
   meta_twitter_card = "summary"
-  meta_twitter_creator = "@zerostaticio"
-  meta_twitter_site = "@zerostaticio"
+  meta_twitter_creator = "@noor070"
+  meta_twitter_site = "@noor070"
 
   [params.logo]
-  alt = "Hugo Hero"
+  alt = "APA analysis"
   desktop = "images/logo.svg"
   desktop_height = "29px"
   desktop_width = "217px"
